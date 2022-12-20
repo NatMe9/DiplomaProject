@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "bmw-logo-1970.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

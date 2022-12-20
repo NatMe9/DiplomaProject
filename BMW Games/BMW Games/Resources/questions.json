@@ -1,0 +1,316 @@
+{
+   "items":[
+      {
+         "id": 1,
+         "text":"ЧТО ОЗНАЧАЕТ ЛОГОТИП BMW?",
+         "image":"bmw",
+         "category": "History",
+         "answers":[
+            {
+               "id": 1,
+               "text":"Вращающийся пропеллер, так как это подчеркивает корни и опыт в создании авиамоторов",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"Баварское происхождение(четыре сектора внутреннего круга логотипа выполнены в цветах Баварии — белом и синем)",
+               "isCorrect":true,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"Cтиль бренда BMW символизирует собой мобильность будущего",
+               "isCorrect":false,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 2,
+         "text":"После болезненных поражений Германии в двух мировых войнах, BMW, как и другим немецким брендам, для удержания на плаву приходилось выпускать не только авиационные моторы, но и… кухонную утварь. Было такое?",
+         "image":"bmw",
+         "category": "History",
+         "answers":[
+            {
+               "id": 1,
+               "text":"Да",
+               "isCorrect":true,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"Только авиационные моторы",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"Нет конечно",
+               "isCorrect":false,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "text":"Головное здание BMW-Vierzylinder, где располагается руководство корпорации, имеет интересную архитектуру: ... ",
+         "image":"bmw",
+         "category": "Different",
+         "answers":[
+            {
+               "id": 1,
+               "text":"... четыре башни, если смотреть сверху, придают объекту схожесть с четырьмя колоннами в Барселоне",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"... четыре башни, если смотреть сверху, придают объекту схожесть с бочками баварского пива",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":" ... четыре башни, если смотреть сверху, придают объекту схожесть с четырехцилиндровым мотором",
+               "isCorrect":true,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 4,
+         "text":"Что такое Isetta ?",
+         "image":"bmw",
+         "category": "Different",
+         "answers":[
+            {
+               "id": 1,
+               "text":"название серии кастрюль, выпускавшейся в послевоенное время",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"автомобиль особо малого класса, выпускавшийся в послевоенное время",
+               "isCorrect":true,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"название оборудования для хлебопекарен",
+               "isCorrect":false,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 5,
+         "text":"Каждый уважающий себя фанат BMW знает, что такое «Изгиб Хофмайстера». А ты знаешь, что это?",
+         "image":"bmw",
+         "category": "Different",
+         "answers":[
+            {
+               "id": 1,
+               "text":"Поворот на испытательном полигоне BMW под Бременом",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"Просто фигура речи - «Изгиб Хофмайстера» ничего не обозначает",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"Характерная форма задней стойки крышки",
+               "isCorrect":true,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 6,
+         "text":"Одной из фишек удивительного родстера BMW Z1 считаются необычные двери. Но чем они так необычны?",
+         "image":"bmw",
+         "category": "Different",
+         "answers":[
+            {
+               "id": 1,
+               "text":"Они откидывались в бок, наподобие трапа",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"Они сьезжали вниз",
+               "isCorrect":true,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"Они поднимались наверх",
+               "isCorrect":false,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 7,
+         "text":"Полный вперёд! Пришло время проверить вас на знание полноприводной странички в истории марки. Назовите первую модель марки с приводом на все колеса.",
+         "image":"bmw",
+         "category": "History",
+         "answers":[
+            {
+               "id": 1,
+               "text":"X3",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"X5",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"3-series",
+               "isCorrect":true,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 8,
+         "text":"Предупреждаем сразу – вопрос с подвохом. С каким кузовом не выпускали автомобили на платформе Е30?",
+         "image":"bmw",
+         "category": "Different",
+         "answers":[
+            {
+               "id": 1,
+               "text":"Универсал",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"Седан",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"Купе",
+               "isCorrect":true,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 9,
+         "text":"У кого из советских звёзд в семидесятые годы был автомобиль марки BMW?",
+         "image":"bmw",
+         "category": "History",
+         "answers":[
+            {
+               "id": 1,
+               "text":"Владимир Высоцкий",
+               "isCorrect":true,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"Армен Джигарханян",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"Андрей Миронов",
+               "isCorrect":false,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 10,
+         "text":"На очереди – морская фауна. Какая рыба имеет отношение к автомобилям БМВ?",
+         "image":"bmw",
+         "category": "Different",
+         "answers":[
+            {
+               "id": 1,
+               "text":"Карп",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"Акула",
+               "isCorrect":true,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"Пила",
+               "isCorrect":false,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 11,
+         "text":"Художника может обидеть каждый, кто не знает его происхождения. Национальность дизайнера марки BMW по фамилии Брак:",
+         "image":"bmw",
+         "category": "Different",
+         "answers":[
+            {
+               "id": 1,
+               "text":"француз",
+               "isCorrect":true,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"немец",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"поляк",
+               "isCorrect":false,
+               "isSelected":false
+            }
+         ]
+      },
+      {
+         "id": 12,
+         "text":"Кто из указанных мифических созданий как-то связан с маркой БМВ?",
+         "image":"bmw",
+         "category": "Different",
+         "answers":[
+            {
+               "id": 1,
+               "text":"эльф",
+               "isCorrect":false,
+               "isSelected":false
+            },
+            {
+               "id": 2,
+               "text":"ангел",
+               "isCorrect":true,
+               "isSelected":false
+            },
+            {
+               "id": 3,
+               "text":"демон",
+               "isCorrect":false,
+               "isSelected":false
+            }
+         ]
+      }
+   ]
+}

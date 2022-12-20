@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B756A532951EE63006261DF /* QuizScoreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B756A522951EE63006261DF /* QuizScoreHeaderView.swift */; };
+		7B79281C294FDCBE00D02F53 /* ZeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79281A294FDCBE00D02F53 /* ZeroView.swift */; };
+		7B79281D294FDCBE00D02F53 /* ZeroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B79281B294FDCBE00D02F53 /* ZeroView.xib */; };
+		7B792823294FDCD800D02F53 /* UIView+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79281F294FDCD800D02F53 /* UIView+hide.swift */; };
+		7B792824294FDCD800D02F53 /* UIScreen+sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B792820294FDCD800D02F53 /* UIScreen+sizes.swift */; };
+		7B792825294FDCD800D02F53 /* UIVIew+pinEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B792821294FDCD800D02F53 /* UIVIew+pinEdges.swift */; };
+		7B792826294FDCD800D02F53 /* UIView+loadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B792822294FDCD800D02F53 /* UIView+loadNib.swift */; };
+		7B79282D294FE31D00D02F53 /* CategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79282B294FE31C00D02F53 /* CategoryCollectionCell.swift */; };
+		7B792834294FE70600D02F53 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B792833294FE70600D02F53 /* Category.swift */; };
+		7B792836294FEF7400D02F53 /* car-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B792835294FEF7400D02F53 /* car-loader.json */; };
+		7B792839294FF07900D02F53 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7B792838294FF07900D02F53 /* Lottie */; };
+		7B79283B294FF76700D02F53 /* StartRaceGameButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79283A294FF76700D02F53 /* StartRaceGameButtonCell.swift */; };
+		7B79283E2950EA8000D02F53 /* PersonalQuizScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79283D2950EA8000D02F53 /* PersonalQuizScoreVC.swift */; };
+		7B7928402950ED3500D02F53 /* QuizScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79283F2950ED3500D02F53 /* QuizScoreCell.swift */; };
+		7B7928422950FE9700D02F53 /* PersonalRaceScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7928412950FE9700D02F53 /* PersonalRaceScoreVC.swift */; };
+		7B79284629513DA800D02F53 /* ScoreArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79284529513DA700D02F53 /* ScoreArchiver.swift */; };
+		7B91FD9D2951DEA60063C17B /* BMWImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B91FD9C2951DEA60063C17B /* BMWImageCell.swift */; };
+		7BD32BC3293A72BD0039CC2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BC2293A72BD0039CC2A /* AppDelegate.swift */; };
+		7BD32BC7293A72BD0039CC2A /* QuizGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BC6293A72BD0039CC2A /* QuizGameVC.swift */; };
+		7BD32BCC293A72BF0039CC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD32BCB293A72BF0039CC2A /* Assets.xcassets */; };
+		7BD32BCF293A72BF0039CC2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD32BCD293A72BF0039CC2A /* LaunchScreen.storyboard */; };
+		7BD32BDD293AA4F40039CC2A /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD32BDC293AA4F40039CC2A /* questions.json */; };
+		7BD32BDF293AAFB00039CC2A /* QuestionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BDE293AAFB00039CC2A /* QuestionResponse.swift */; };
+		7BD32BE2293E62C40039CC2A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32BE1293E62C40039CC2A /* SnapKit */; };
+		7BD32BE7293E7B7C0039CC2A /* QuestionTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BE6293E7B7C0039CC2A /* QuestionTextCell.swift */; };
+		7BD32BE9293E7BC70039CC2A /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BE8293E7BC70039CC2A /* AnswerCell.swift */; };
+		7BD32BEB293E7BD80039CC2A /* CheckButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BEA293E7BD80039CC2A /* CheckButtonCell.swift */; };
+		7BD32BEE29412B540039CC2A /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BED29412B540039CC2A /* JsonService.swift */; };
+		7BD32BF02949FDF90039CC2A /* QuestionImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BEF2949FDF90039CC2A /* QuestionImageCell.swift */; };
+		7BD32BF22949FFC80039CC2A /* QuestionNumberHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BF12949FFC80039CC2A /* QuestionNumberHeader.swift */; };
+		7BD32BF5294BBD5A0039CC2A /* QuestionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32BF4294BBD5A0039CC2A /* QuestionsProvider.swift */; };
+		7BD32BFA294D69330039CC2A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32BF9294D69330039CC2A /* FirebaseAnalytics */; };
+		7BD32BFC294D69330039CC2A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32BFB294D69330039CC2A /* FirebaseAnalyticsSwift */; };
+		7BD32BFE294D69330039CC2A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32BFD294D69330039CC2A /* FirebaseAuth */; };
+		7BD32C00294D69330039CC2A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32BFF294D69330039CC2A /* FirebaseDatabase */; };
+		7BD32C02294D69330039CC2A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32C01294D69330039CC2A /* FirebaseFirestore */; };
+		7BD32C04294D69330039CC2A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32C03294D69330039CC2A /* FirebaseFirestoreSwift */; };
+		7BD32C06294D69330039CC2A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32C05294D69330039CC2A /* FirebaseStorage */; };
+		7BD32C09294D6AEA0039CC2A /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32C08294D6AEA0039CC2A /* AuthVC.swift */; };
+		7BD32C0B294D6B030039CC2A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32C0A294D6B020039CC2A /* MainVC.swift */; };
+		7BD32C0E294DFF2D0039CC2A /* ScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32C0D294DFF2C0039CC2A /* ScreenFactory.swift */; };
+		7BD32C10294E13140039CC2A /* RaceGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32C0F294E13140039CC2A /* RaceGameVC.swift */; };
+		7BD32C12294E6B190039CC2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BD32C11294E6B180039CC2A /* GoogleService-Info.plist */; };
+		7BD32C15294E82210039CC2A /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD32C14294E82210039CC2A /* SDWebImage */; };
+		7BD32C37294FC8510039CC2A /* SaverRaceResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32C36294FC84F0039CC2A /* SaverRaceResultVC.swift */; };
+		7BD32C47294FD8420039CC2A /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32C42294FD8420039CC2A /* CategoryCell.swift */; };
+		7BD32C49294FD8420039CC2A /* StartQuizGameButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD32C44294FD8420039CC2A /* StartQuizGameButtonCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B756A522951EE63006261DF /* QuizScoreHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizScoreHeaderView.swift; sourceTree = "<group>"; };
+		7B79281A294FDCBE00D02F53 /* ZeroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZeroView.swift; sourceTree = "<group>"; };
+		7B79281B294FDCBE00D02F53 /* ZeroView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZeroView.xib; sourceTree = "<group>"; };
+		7B79281F294FDCD800D02F53 /* UIView+hide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+hide.swift"; sourceTree = "<group>"; };
+		7B792820294FDCD800D02F53 /* UIScreen+sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+sizes.swift"; sourceTree = "<group>"; };
+		7B792821294FDCD800D02F53 /* UIVIew+pinEdges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVIew+pinEdges.swift"; sourceTree = "<group>"; };
+		7B792822294FDCD800D02F53 /* UIView+loadNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+loadNib.swift"; sourceTree = "<group>"; };
+		7B79282B294FE31C00D02F53 /* CategoryCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionCell.swift; sourceTree = "<group>"; };
+		7B792833294FE70600D02F53 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7B792835294FEF7400D02F53 /* car-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "car-loader.json"; sourceTree = "<group>"; };
+		7B79283A294FF76700D02F53 /* StartRaceGameButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRaceGameButtonCell.swift; sourceTree = "<group>"; };
+		7B79283D2950EA8000D02F53 /* PersonalQuizScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalQuizScoreVC.swift; sourceTree = "<group>"; };
+		7B79283F2950ED3500D02F53 /* QuizScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizScoreCell.swift; sourceTree = "<group>"; };
+		7B7928412950FE9700D02F53 /* PersonalRaceScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRaceScoreVC.swift; sourceTree = "<group>"; };
+		7B79284529513DA700D02F53 /* ScoreArchiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreArchiver.swift; sourceTree = "<group>"; };
+		7B91FD9C2951DEA60063C17B /* BMWImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWImageCell.swift; sourceTree = "<group>"; };
+		7BD32BBF293A72BD0039CC2A /* BMW Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMW Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD32BC2293A72BD0039CC2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BD32BC6293A72BD0039CC2A /* QuizGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameVC.swift; sourceTree = "<group>"; };
+		7BD32BCB293A72BF0039CC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BD32BCE293A72BF0039CC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BD32BD0293A72BF0039CC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD32BDC293AA4F40039CC2A /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		7BD32BDE293AAFB00039CC2A /* QuestionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionResponse.swift; sourceTree = "<group>"; };
+		7BD32BE6293E7B7C0039CC2A /* QuestionTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTextCell.swift; sourceTree = "<group>"; };
+		7BD32BE8293E7BC70039CC2A /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+		7BD32BEA293E7BD80039CC2A /* CheckButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButtonCell.swift; sourceTree = "<group>"; };
+		7BD32BED29412B540039CC2A /* JsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonService.swift; sourceTree = "<group>"; };
+		7BD32BEF2949FDF90039CC2A /* QuestionImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionImageCell.swift; sourceTree = "<group>"; };
+		7BD32BF12949FFC80039CC2A /* QuestionNumberHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionNumberHeader.swift; sourceTree = "<group>"; };
+		7BD32BF4294BBD5A0039CC2A /* QuestionsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsProvider.swift; sourceTree = "<group>"; };
+		7BD32C08294D6AEA0039CC2A /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		7BD32C0A294D6B020039CC2A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		7BD32C0D294DFF2C0039CC2A /* ScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFactory.swift; sourceTree = "<group>"; };
+		7BD32C0F294E13140039CC2A /* RaceGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceGameVC.swift; sourceTree = "<group>"; };
+		7BD32C11294E6B180039CC2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7BD32C36294FC84F0039CC2A /* SaverRaceResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaverRaceResultVC.swift; sourceTree = "<group>"; };
+		7BD32C42294FD8420039CC2A /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		7BD32C44294FD8420039CC2A /* StartQuizGameButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartQuizGameButtonCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BD32BBC293A72BD0039CC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD32C00294D69330039CC2A /* FirebaseDatabase in Frameworks */,
+				7BD32BFC294D69330039CC2A /* FirebaseAnalyticsSwift in Frameworks */,
+				7BD32BFA294D69330039CC2A /* FirebaseAnalytics in Frameworks */,
+				7BD32C04294D69330039CC2A /* FirebaseFirestoreSwift in Frameworks */,
+				7BD32BE2293E62C40039CC2A /* SnapKit in Frameworks */,
+				7B792839294FF07900D02F53 /* Lottie in Frameworks */,
+				7BD32C06294D69330039CC2A /* FirebaseStorage in Frameworks */,
+				7BD32C15294E82210039CC2A /* SDWebImage in Frameworks */,
+				7BD32BFE294D69330039CC2A /* FirebaseAuth in Frameworks */,
+				7BD32C02294D69330039CC2A /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B79281E294FDCD800D02F53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7B79281F294FDCD800D02F53 /* UIView+hide.swift */,
+				7B792820294FDCD800D02F53 /* UIScreen+sizes.swift */,
+				7B792821294FDCD800D02F53 /* UIVIew+pinEdges.swift */,
+				7B792822294FDCD800D02F53 /* UIView+loadNib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7B792827294FDCF600D02F53 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				7B792835294FEF7400D02F53 /* car-loader.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		7B79283C2950EA2800D02F53 /* Quiz Personal Score */ = {
+			isa = PBXGroup;
+			children = (
+				7B79283D2950EA8000D02F53 /* PersonalQuizScoreVC.swift */,
+				7B79283F2950ED3500D02F53 /* QuizScoreCell.swift */,
+				7B756A522951EE63006261DF /* QuizScoreHeaderView.swift */,
+			);
+			path = "Quiz Personal Score";
+			sourceTree = "<group>";
+		};
+		7BD32BB6293A72BD0039CC2A = {
+			isa = PBXGroup;
+			children = (
+				7BD32BC1293A72BD0039CC2A /* BMW Games */,
+				7BD32BC0293A72BD0039CC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BD32BC0293A72BD0039CC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32BBF293A72BD0039CC2A /* BMW Games.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BD32BC1293A72BD0039CC2A /* BMW Games */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32BD6293A99C20039CC2A /* App */,
+				7BD32C0C294DF85A0039CC2A /* Dependency Container */,
+				7BD32BD7293A99CA0039CC2A /* Screens */,
+				7BD32C38294FCDD90039CC2A /* Views */,
+				7B79281E294FDCD800D02F53 /* Extensions */,
+				7BD32BD9293A9A0D0039CC2A /* Models */,
+				7BD32BEC29412AF50039CC2A /* Services */,
+				7BD32BD8293A99D60039CC2A /* Resources */,
+				7B792827294FDCF600D02F53 /* Animations */,
+			);
+			path = "BMW Games";
+			sourceTree = "<group>";
+		};
+		7BD32BD6293A99C20039CC2A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32BC2293A72BD0039CC2A /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7BD32BD7293A99CA0039CC2A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32C07294D6A9A0039CC2A /* Auth */,
+				7BD32BE4293E6E030039CC2A /* Main */,
+				7BD32BE3293E6DE00039CC2A /* Games */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7BD32BD8293A99D60039CC2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32C11294E6B180039CC2A /* GoogleService-Info.plist */,
+				7BD32BCB293A72BF0039CC2A /* Assets.xcassets */,
+				7BD32BDC293AA4F40039CC2A /* questions.json */,
+				7BD32BCD293A72BF0039CC2A /* LaunchScreen.storyboard */,
+				7BD32BD0293A72BF0039CC2A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7BD32BD9293A9A0D0039CC2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32BDE293AAFB00039CC2A /* QuestionResponse.swift */,
+				7B792833294FE70600D02F53 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7BD32BE3293E6DE00039CC2A /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32C16294E8B0C0039CC2A /* Quiz */,
+				7BD32C17294E8B290039CC2A /* Race */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		7BD32BE4293E6E030039CC2A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32C0A294D6B020039CC2A /* MainVC.swift */,
+				7BD32C41294FD8410039CC2A /* Cells */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7BD32BE5293E7B450039CC2A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32BF3294B9D900039CC2A /* Header */,
+				7BD32BE6293E7B7C0039CC2A /* QuestionTextCell.swift */,
+				7BD32BEF2949FDF90039CC2A /* QuestionImageCell.swift */,
+				7BD32BE8293E7BC70039CC2A /* AnswerCell.swift */,
+				7BD32BEA293E7BD80039CC2A /* CheckButtonCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7BD32BEC29412AF50039CC2A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32BED29412B540039CC2A /* JsonService.swift */,
+				7BD32BF4294BBD5A0039CC2A /* QuestionsProvider.swift */,
+				7B79284529513DA700D02F53 /* ScoreArchiver.swift */,
+				7BD32C36294FC84F0039CC2A /* SaverRaceResultVC.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7BD32BF3294B9D900039CC2A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32BF12949FFC80039CC2A /* QuestionNumberHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		7BD32C07294D6A9A0039CC2A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32C08294D6AEA0039CC2A /* AuthVC.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7BD32C0C294DF85A0039CC2A /* Dependency Container */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32C0D294DFF2C0039CC2A /* ScreenFactory.swift */,
+			);
+			path = "Dependency Container";
+			sourceTree = "<group>";
+		};
+		7BD32C16294E8B0C0039CC2A /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32BC6293A72BD0039CC2A /* QuizGameVC.swift */,
+				7BD32BE5293E7B450039CC2A /* Cells */,
+				7B79283C2950EA2800D02F53 /* Quiz Personal Score */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		7BD32C17294E8B290039CC2A /* Race */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32C0F294E13140039CC2A /* RaceGameVC.swift */,
+				7B7928412950FE9700D02F53 /* PersonalRaceScoreVC.swift */,
+			);
+			path = Race;
+			sourceTree = "<group>";
+		};
+		7BD32C38294FCDD90039CC2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B79281A294FDCBE00D02F53 /* ZeroView.swift */,
+				7B79281B294FDCBE00D02F53 /* ZeroView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BD32C41294FD8410039CC2A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7BD32C42294FD8420039CC2A /* CategoryCell.swift */,
+				7B79282B294FE31C00D02F53 /* CategoryCollectionCell.swift */,
+				7BD32C44294FD8420039CC2A /* StartQuizGameButtonCell.swift */,
+				7B79283A294FF76700D02F53 /* StartRaceGameButtonCell.swift */,
+				7B91FD9C2951DEA60063C17B /* BMWImageCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BD32BBE293A72BD0039CC2A /* BMW Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BD32BD3293A72BF0039CC2A /* Build configuration list for PBXNativeTarget "BMW Games" */;
+			buildPhases = (
+				7BD32BBB293A72BD0039CC2A /* Sources */,
+				7BD32BBC293A72BD0039CC2A /* Frameworks */,
+				7BD32BBD293A72BD0039CC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMW Games";
+			packageProductDependencies = (
+				7BD32BE1293E62C40039CC2A /* SnapKit */,
+				7BD32BF9294D69330039CC2A /* FirebaseAnalytics */,
+				7BD32BFB294D69330039CC2A /* FirebaseAnalyticsSwift */,
+				7BD32BFD294D69330039CC2A /* FirebaseAuth */,
+				7BD32BFF294D69330039CC2A /* FirebaseDatabase */,
+				7BD32C01294D69330039CC2A /* FirebaseFirestore */,
+				7BD32C03294D69330039CC2A /* FirebaseFirestoreSwift */,
+				7BD32C05294D69330039CC2A /* FirebaseStorage */,
+				7BD32C14294E82210039CC2A /* SDWebImage */,
+				7B792838294FF07900D02F53 /* Lottie */,
+			);
+			productName = "BMW Games";
+			productReference = 7BD32BBF293A72BD0039CC2A /* BMW Games.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BD32BB7293A72BD0039CC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7BD32BBE293A72BD0039CC2A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BD32BBA293A72BD0039CC2A /* Build configuration list for PBXProject "BMW Games" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BD32BB6293A72BD0039CC2A;
+			packageReferences = (
+				7BD32BE0293E62C40039CC2A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7BD32C13294E82210039CC2A /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				7B792837294FF07900D02F53 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 7BD32BC0293A72BD0039CC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BD32BBE293A72BD0039CC2A /* BMW Games */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BD32BBD293A72BD0039CC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B79281D294FDCBE00D02F53 /* ZeroView.xib in Resources */,
+				7BD32BDD293AA4F40039CC2A /* questions.json in Resources */,
+				7BD32BCF293A72BF0039CC2A /* LaunchScreen.storyboard in Resources */,
+				7BD32BCC293A72BF0039CC2A /* Assets.xcassets in Resources */,
+				7BD32C12294E6B190039CC2A /* GoogleService-Info.plist in Resources */,
+				7B792836294FEF7400D02F53 /* car-loader.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BD32BBB293A72BD0039CC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD32BEE29412B540039CC2A /* JsonService.swift in Sources */,
+				7BD32C10294E13140039CC2A /* RaceGameVC.swift in Sources */,
+				7BD32C37294FC8510039CC2A /* SaverRaceResultVC.swift in Sources */,
+				7B79283E2950EA8000D02F53 /* PersonalQuizScoreVC.swift in Sources */,
+				7B7928422950FE9700D02F53 /* PersonalRaceScoreVC.swift in Sources */,
+				7B792825294FDCD800D02F53 /* UIVIew+pinEdges.swift in Sources */,
+				7BD32C0B294D6B030039CC2A /* MainVC.swift in Sources */,
+				7BD32BDF293AAFB00039CC2A /* QuestionResponse.swift in Sources */,
+				7B91FD9D2951DEA60063C17B /* BMWImageCell.swift in Sources */,
+				7B7928402950ED3500D02F53 /* QuizScoreCell.swift in Sources */,
+				7B792826294FDCD800D02F53 /* UIView+loadNib.swift in Sources */,
+				7BD32BC7293A72BD0039CC2A /* QuizGameVC.swift in Sources */,
+				7B79281C294FDCBE00D02F53 /* ZeroView.swift in Sources */,
+				7B756A532951EE63006261DF /* QuizScoreHeaderView.swift in Sources */,
+				7BD32BF22949FFC80039CC2A /* QuestionNumberHeader.swift in Sources */,
+				7B79283B294FF76700D02F53 /* StartRaceGameButtonCell.swift in Sources */,
+				7BD32BE7293E7B7C0039CC2A /* QuestionTextCell.swift in Sources */,
+				7B79284629513DA800D02F53 /* ScoreArchiver.swift in Sources */,
+				7B792823294FDCD800D02F53 /* UIView+hide.swift in Sources */,
+				7BD32C09294D6AEA0039CC2A /* AuthVC.swift in Sources */,
+				7B792824294FDCD800D02F53 /* UIScreen+sizes.swift in Sources */,
+				7BD32BC3293A72BD0039CC2A /* AppDelegate.swift in Sources */,
+				7BD32BF5294BBD5A0039CC2A /* QuestionsProvider.swift in Sources */,
+				7BD32C49294FD8420039CC2A /* StartQuizGameButtonCell.swift in Sources */,
+				7BD32C47294FD8420039CC2A /* CategoryCell.swift in Sources */,
+				7B79282D294FE31D00D02F53 /* CategoryCollectionCell.swift in Sources */,
+				7BD32BF02949FDF90039CC2A /* QuestionImageCell.swift in Sources */,
+				7BD32BEB293E7BD80039CC2A /* CheckButtonCell.swift in Sources */,
+				7BD32C0E294DFF2D0039CC2A /* ScreenFactory.swift in Sources */,
+				7BD32BE9293E7BC70039CC2A /* AnswerCell.swift in Sources */,
+				7B792834294FE70600D02F53 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BD32BCD293A72BF0039CC2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BD32BCE293A72BF0039CC2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BD32BD1293A72BF0039CC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BD32BD2293A72BF0039CC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BD32BD4293A72BF0039CC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAHG32NP26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BMW Games/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NatMe9.BMW-Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BD32BD5293A72BF0039CC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAHG32NP26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BMW Games/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NatMe9.BMW-Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BD32BBA293A72BD0039CC2A /* Build configuration list for PBXProject "BMW Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD32BD1293A72BF0039CC2A /* Debug */,
+				7BD32BD2293A72BF0039CC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BD32BD3293A72BF0039CC2A /* Build configuration list for PBXNativeTarget "BMW Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD32BD4293A72BF0039CC2A /* Debug */,
+				7BD32BD5293A72BF0039CC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B792837294FF07900D02F53 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		7BD32BE0293E62C40039CC2A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		7BD32C13294E82210039CC2A /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B792838294FF07900D02F53 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B792837294FF07900D02F53 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		7BD32BE1293E62C40039CC2A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32BE0293E62C40039CC2A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		7BD32BF9294D69330039CC2A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7BD32BFB294D69330039CC2A /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		7BD32BFD294D69330039CC2A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7BD32BFF294D69330039CC2A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7BD32C01294D69330039CC2A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7BD32C03294D69330039CC2A /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		7BD32C05294D69330039CC2A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32BF8294D69320039CC2A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		7BD32C14294E82210039CC2A /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD32C13294E82210039CC2A /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7BD32BB7293A72BD0039CC2A /* Project object */;
+}
